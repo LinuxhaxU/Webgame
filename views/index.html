@@ -1,0 +1,46 @@
+<!--  1) Create a basic html page
+
+      2) Put a search input box in the middle of the page (for a username)
+
+      3) Put a search button on the page
+
+      4) Create a message/error element if the username isn't found
+
+      5) Add elements to display if user is found
+              a) profile image
+              b) username
+              c) public repo count
+              d) followers count
+
+-->
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<title>Get a calculator!</title>
+<script src="js/app.js"></script>
+</head>
+<body>
+<div id="textBoxFrame">
+<H1 id = "question">Answer: 2 + 2 = ? </H1>
+<div id="textBoxHolder">
+<input type="textbox" value="answer" id="input"></input>
+<input type="button" value="submit" onclick="onSub()" id="submit">
+</div>
+</div>
+<div id="message"></div>
+<div id="score"></div>
+<div id="highScores"></div>
+<div id="splash">
+You will have 25 seconds per question after completing the first question. <br>
+These questions are hard use a calculator. <br>
+Google will help you there. <br>
+After five wrong answers it's game over. <br>
+Good Luck! <br>
+Enter Name:
+<input type="textbox" value="name" id="name">
+</div>
+<div id="namePrompt">
+</div>
+</body>
+</html>

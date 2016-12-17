@@ -1,0 +1,50 @@
+#message{
+	position: absolute;
+	width: 50%;
+	background-color: rgba(79, 214, 232, 0.77);
+	text-align: center;
+	padding: 5%;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#textBoxFrame{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+#textBox{
+	width: 100%;
+}
+#highScores
+{
+	position: absolute;
+	width: 50%;
+	background-color: rgba(214, 0, 214, 0.77);
+	text-align: center;
+	padding: 5%;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#splash
+{
+	position: relative;
+	width: 70%;
+	height: 50%;
+	text-align: center;
+	margin: auto;
+	background-color: white;
+	font-size: 24px;
+	z-index: 2;
+}
+#namePrompt
+{
+	visibility: hidden;
+}
+#input
+{
+	width: 50%;
+	padding: 1%;
+	margin-right: -10%;
+}
